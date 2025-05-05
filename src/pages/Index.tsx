@@ -1,10 +1,11 @@
 
+
 import { Card, CardContent } from "@/components/ui/card";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-green-50 to-green-100">
-      <Card className="w-full max-w-md mx-auto shadow-lg">
+    <div className="min-h-screen flex items-center justify-center bg-black">
+      <Card className="w-full max-w-md mx-auto shadow-lg bg-black border-green-700">
         <CardContent className="flex flex-col items-center py-10 px-6">
           {/* Логотип упавшей елки (SVG) */}
           <svg 
@@ -52,10 +53,10 @@ const Index = () => {
           </svg>
           
           {/* Текст "Спилим Ваш лес" */}
-          <h1 className="text-3xl font-bold mb-4 text-green-800">Спилим Ваш лес</h1>
+          <h1 className="text-3xl font-bold mb-4 text-green-500">Спилим Ваш лес</h1>
           
           {/* Номер телефона */}
-          <p className="text-xl font-medium text-green-700">+7(814)226-56-86</p>
+          <p className="text-xl font-medium text-green-400">+7(814)226-56-86</p>
         </CardContent>
       </Card>
     </div>
