@@ -1,12 +1,13 @@
 import type { Config } from "tailwindcss";
 
+
 export default {
 	darkMode: ["class"],
 	content: [
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -61,6 +62,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				green: {
+					50: '#f0faf4',
+					100: '#dbf5e7',
+					700: '#15803d',
+					800: '#166534'
 				}
 			},
 			borderRadius: {
@@ -71,18 +78,18 @@ export default {
 			keyframes: {
 				'accordion-down': {
 					from: {
-						height: '0'
+					height: '0'
 					},
 					to: {
-						height: 'var(--radix-accordion-content-height)'
+					height: 'var(--radix-accordion-content-height)'
 					}
 				},
 				'accordion-up': {
 					from: {
-						height: 'var(--radix-accordion-content-height)'
+					height: 'var(--radix-accordion-content-height)'
 					},
 					to: {
-						height: '0'
+					height: '0'
 					}
 				}
 			},
